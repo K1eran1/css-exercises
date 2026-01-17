@@ -2,3 +2,8 @@
     background-color: lightpink;
     font-family: verdana, DejaVu Sans, sans-serif;
 }/* Add CSS Styling */
+
+#number-2 {
+    color: blue;
+    font-size: 36px;
+}
