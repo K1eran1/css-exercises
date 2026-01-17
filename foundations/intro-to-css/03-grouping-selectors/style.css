@@ -3,3 +3,8 @@
     font-size: 28px;
     font-family: helvetica, Times New Roman, sans-serif;
 }
+
+.left-button{
+    background-color: black;
+    color: white;
+}
