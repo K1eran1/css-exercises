@@ -70,3 +70,10 @@ a:active {
   font-size: 14px;
   color: black;
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
