@@ -74,10 +74,16 @@ button.cancel {
 .header-close-container {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 .text-buttons-container {
   display: flex;
   flex-direction: column;
   gap: 15px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
 }
