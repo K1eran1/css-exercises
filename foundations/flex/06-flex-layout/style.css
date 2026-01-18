@@ -32,7 +32,10 @@ input {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 0 10px 0;
+  align-items: center;
+  padding: 0;
+  background-color: #eee;
+  padding: 10px;
 }
 
 .left-links,
@@ -41,5 +44,29 @@ input {
   gap: 20px;
   list-style-type: none;
   padding: 0;
-  margin: 5px 0 0;
+  margin: 0;
+}
+
+a:link {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-size: 14px;
+  color: black;
+}
+
+a:active {
+  text-decoration: underline;
+  font-size: 14px;
+  color: black;
 }
