@@ -27,7 +27,18 @@ img {
   background: #eee;
 }
 
-.item-container {
+.outer-item-container {
   display: flex;
+  align-items: center;
+  
+}
 
+.inner-item-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  display: flex;
+  
 }
